@@ -12,13 +12,9 @@
         <div class="container">
             <div class="span10 text-center text-warning">Listado de precursores y químicos esenciales</div>
             <div class="span5 text-left">
-                <asp:TextBox ID="tb_Quimicos" TextMode="MultiLine" runat="server" Height="450px" width="300px">Acetato de Etilo
-Acetato de Butilo
-Acetonitrilo
-Hipoclorito de sodio</asp:TextBox>
-            </div>
-            <div class="span5 text-right">
-                <asp:TextBox ID="tb_Cambios" TextMode="MultiLine" runat="server" Height="450px" width="300px"></asp:TextBox>
+                Original<br /><asp:TextBox ID="tb_1" TextMode="MultiLine" runat="server" Rows="3" width="300px"></asp:TextBox><br />
+                Cambiado<br /><asp:TextBox ID="tb_2" TextMode="MultiLine" runat="server" Rows="3" width="300px"></asp:TextBox><br />
+                Diferencias<br /><asp:TextBox ID="tb_3" TextMode="MultiLine" runat="server" Rows="3" width="300px"></asp:TextBox>
             </div>
             <div class="span10 text-center">
                 <asp:LinkButton ID="btn_Mostrar" runat="server" Text="Mostrar Cambios" CssClass="btn"></asp:LinkButton>
